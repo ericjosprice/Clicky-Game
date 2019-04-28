@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Peter Griffin",
+    "image":
+      "https://www.thoughtco.com/thmb/H9V_z_oYhbKldDJJUL53tVN36cQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/peter_2008_v2F_hires1-56a00f083df78cafda9fdcb6.jpg",
+    "occupation": "Happy-Go-Lucky Toy Factory Worker",
+    "location": "Quahog, Rhode Island"
+  },
+  {
+    "id": 2,
+    "name": "Lois Griffin",
+    "image":
+      "https://www.thoughtco.com/thmb/qL9NuJ5lmmRzMyFngIz9SyYjSiw=/520x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/fGuy2006_Lois_f-56a00b003df78cafda9fc743.jpg",
+    "occupation": "Accomplished piano player and singer",
+    "location": "Quahog, Rhode Island"
+  },
+  {
+    "id": 3,
+    "name": "Stewie Griffin",
+    "image":
+      "https://www.thoughtco.com/thmb/fc5QH6AXdNtQRwuaQevxSSiwp1k=/520x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/fGuy2006_Stewie1_f-56a00b003df78cafda9fc746.jpg",
+    "occupation": "schemes many times to destroy Lois",
+    "location": "Quahog, Rhode Island"
+  },
+  {
+    "id": 4,
+    "name": "Quagmire",
+    "image":
+      "https://www.thoughtco.com/thmb/1k4LHSdZPiQNnbxMXT_xcXwRX24=/475x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/fGuyQuagmireArt_v1fa-57a96bf33df78cf459bb222a.jpg",
+    "occupation": "airline pilot",
+    "location": "Quahog, Rhode Island"
+  },
+  {
+    "id": 5,
+    "name": "Cleveland Brown",
+    "image":
+      "https://www.thoughtco.com/thmb/9hDbpua-5jQG7pH_c-16yF5H0F4=/300x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cleveland_v2Fb080309-56a00cf55f9b58eba4aead78.jpg",
+    "occupation": "TV show Host. The Cleveland Show",
+    "location": "Stoolbend, Virginia"
+  },
+  {
+    "id": 6,
+    "name": "Joe Swanson",
+    "image":
+      "https://www.thoughtco.com/thmb/yvYr2GGwOCeBdqj3wwFMJemQhLA=/2550x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cacx01_061_03b_0337_hires2-56a010075f9b58eba4aeb9c5.jpg",
+    "occupation": "police officer",
+    "location": "Quahog, Rhode Island"
+  }
+]
