@@ -4,6 +4,7 @@
 }
 
 html, body, #root {
+  /* backgroudImage: url("images/Wedding Day Blues.jpg"); */
   padding: 0;
   margin: 0;
   height: 100%;

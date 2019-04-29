@@ -1,6 +1,6 @@
 import React from "react";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
+// import Title from "./components/Title";
 import FriendCard from "./components/FriendCard";
 import friends from "./friends.json";
 import Navbar from "./components/Navbar";
@@ -12,7 +12,25 @@ function App() {
     <Navbar/>
     <Jumbotron/>
     <Wrapper>
-      <FriendCard
+
+
+      {
+        friends.map(friend => {
+          return <FriendCard
+            data-id={friend.id}
+            key={friend.id}
+            name={friend.name}
+            image={friend.image}
+            occupation={friend.occupation}
+            location={friend.location}
+          />
+        })
+
+      }
+      {/*
+      
+        <FriendCard
+
         name={friends[0].name}
         image={friends[0].image}
         occupation={friends[0].occupation}
@@ -47,7 +65,7 @@ function App() {
         image={friends[5].image}
         occupation={friends[5].occupation}
         location={friends[5].location}
-      />
+      /> */}
     </Wrapper>
     </div>
   );
