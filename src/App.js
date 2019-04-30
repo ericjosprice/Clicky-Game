@@ -37,12 +37,8 @@ class App extends React.Component {
       if (this.state.score > this.state.highScore) {
         this.setState({ highScore: this.state.score });
       }
-     
-    //push the id of the clicked cards into an array. loop through that array to determine if the card has already been clicked
-
-     // We always use the setState method to update a component's state
-     this.setState({ score: this.state.score + 1 });
   }
+  //push the id of the clicked cards into an array. loop through that array to determine if the card has already been clicked
 
   shuffleArray = (imagesArray) => {
     for (let i = imagesArray.length - 1; i > 0; i--) {
@@ -58,7 +54,7 @@ class App extends React.Component {
     return (
       <div>
         <nav className="navbar navbar-dark bg-primary sticky-top">
-          <a className="navbar-brand" href="#">Clicky-Game</a>
+          <a className="navbar-brand" href="https://ericjosprice.github.io/Clicky-Game/">Clicky-Game</a>
           <h3>{this.state.message}</h3>
           <h3>Your Score: {this.state.score}</h3>
           <h3>High Score: {this.state.highScore}</h3>
