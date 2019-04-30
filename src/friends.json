@@ -46,5 +46,37 @@
       "https://www.thoughtco.com/thmb/yvYr2GGwOCeBdqj3wwFMJemQhLA=/2550x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cacx01_061_03b_0337_hires2-56a010075f9b58eba4aeb9c5.jpg",
     "occupation": "police officer",
     "location": "Quahog, Rhode Island"
+  },
+  {
+    "id": 7,
+    "name": "Brian Griffin",
+    "image":
+      "https://www.thoughtco.com/thmb/FUY-2FbrfxnQVqOVxVEN5yT5Hvo=/653x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/brian_2008_v2F-56a00c1e5f9b58eba4aea7e1.jpg",
+    "occupation": "police officer",
+    "location": "Quahog, Rhode Island"
+  },
+  {
+    "id": 8,
+    "name": "Meg Griffin",
+    "image":
+      "https://www.thoughtco.com/thmb/c1E6x-PbsmB-jBtA9RZED2qBIAU=/653x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/meg_2008_v2F-56a00c203df78cafda9fcd70.jpg",
+    "occupation": "police officer",
+    "location": "Quahog, Rhode Island"
+  },
+  {
+    "id": 9,
+    "name": "Peter Griffin and Remote Control",
+    "image":
+      "https://www.thoughtco.com/thmb/TxJRhQZf5zNAbMx8oPaOyTJQi0U=/300x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/familyGuy_Peter_remote_72-56a00a585f9b58eba4ae9b36.jpg",
+    "occupation": "police officer",
+    "location": "Quahog, Rhode Island"
+  },
+  {
+    "id": 10,
+    "name": "Chris Griffin Air Guitar",
+    "image":
+      "https://www.thoughtco.com/thmb/i3d5fK8voLKZ7c2bglQZ5PUfrlY=/368x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/famguychris_noGuitar_05_72-56a00a5d3df78cafda9fc0b3.jpg",
+    "occupation": "police officer",
+    "location": "Quahog, Rhode Island"
   }
 ]
