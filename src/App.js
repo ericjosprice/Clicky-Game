@@ -1,6 +1,8 @@
 import React from "react";
 import Wrapper from "./components/Wrapper";
 // import Title from "./components/Title";
+import "./App.css";
+import logo from "./logo.svg";
 import FriendCard from "./components/FriendCard";
 import friends from "./friends.json";
 import Navbar from "./components/Navbar";
@@ -54,6 +56,11 @@ class App extends React.Component {
     return (
       <div>
         <Navbar message={this.state.message} highScore={this.state.highScore} score={this.state.score}/>
+        <div className="App">
+          <div className="App-header">
+            <img src={logo} className="App-logo" alt="logo" />
+          </div>
+        </div>
         <Jumbotron/>
 
         <Wrapper>
