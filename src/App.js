@@ -3,7 +3,7 @@ import Wrapper from "./components/Wrapper";
 // import Title from "./components/Title";
 import FriendCard from "./components/FriendCard";
 import friends from "./friends.json";
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron"
 
 class App extends React.Component {
@@ -53,12 +53,7 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        <nav className="navbar navbar-dark bg-primary sticky-top">
-          <a className="navbar-brand" href="https://ericjosprice.github.io/Clicky-Game/">Clicky-Game</a>
-          <h3>{this.state.message}</h3>
-          <h3>Your Score: {this.state.score}</h3>
-          <h3>High Score: {this.state.highScore}</h3>
-        </nav>
+        <Navbar message={this.state.message} highScore={this.state.highScore} score={this.state.score}/>
         <Jumbotron/>
 
         <Wrapper>
