@@ -1,6 +1,5 @@
 import React from "react";
 import Wrapper from "./components/Wrapper";
-// import Title from "./components/Title";
 import "./App.css";
 import logo from "./logo.svg";
 import FriendCard from "./components/FriendCard";
@@ -10,7 +9,7 @@ import Jumbotron from "./components/Jumbotron"
 
 class App extends React.Component {
 
-  //set state so we know which image has been clicked. Also we want establish an array of characters so we can randomly assign them to the DOM
+  //We need a "clickedArray" in the state, so we can track the id's of the cards that have been clicked
   state = {
     friends,
     score:0,
@@ -18,13 +17,17 @@ class App extends React.Component {
     clickedArray:[],
     message: ""
   };
-
+// when a character card is clicked
+  // 1. shuffle friends Array indeces then set the friends array state 
+  // 2. determine if the card's id has already been clicked
+    // a. if it has been clicked then game over
+    // b. if it hasn't been clicked then increment score
+    // c. determine if high score has been reached. if so set highScore state  
   clickedCharacter = id => {
-    //scramble the order of cards in the state.friends array
-
+    //shuffle friends array
       const shuffledArray = this.shuffleArray(friends);
       this.setState({friends: shuffledArray});
-      // reset if image was already clicked.  set this.state.score = 0; empty clickeadArray, end of if block
+      // reset game if image was already clicked.  Set this.state.score = 0; empty clickeadArray, end of game if card's id exists in clicked array
       if (this.state.clickedArray.includes(id)) {
         this.setState({ score: 0, clickedArray: [], message: "Game Over try again!"});
       }
@@ -35,13 +38,12 @@ class App extends React.Component {
           message: "Correct"
         });
       }
-      // set highscore = score if score>topscore.
+      // if score>highScore, set highScore = score
       if (this.state.score > this.state.highScore) {
         this.setState({ highScore: this.state.score });
       }
   }
-  //push the id of the clicked cards into an array. loop through that array to determine if the card has already been clicked
-
+// randomly shuffle array indeces 
   shuffleArray = (imagesArray) => {
     for (let i = imagesArray.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
